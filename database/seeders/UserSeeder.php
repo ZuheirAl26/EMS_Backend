@@ -45,6 +45,7 @@ class UserSeeder extends Seeder
             'email' => 'zuheiralhomsi73@gmail.com',
             'type' => SystemUserType::EXHIBITOR,
             'password' => '12345678',
+            'email_verified_at' => now(),
         ]);
     }
 }
